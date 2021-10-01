@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<title>Rayana's pet store</title>
+	<script src="https://kit.fontawesome.com/5d6650f6c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+	<div class="lgblock">
+		<img src="images/logo.png" class="pic1">
+		<h1 class="h1">Rayana's pet store</h1>
+		<div class="aa">
+		<div class="aa2">
+		<a href="Homepage.html">Home</a>
+       	<a href="#">Delivery</a>
+        <a href="#">Vetpharmasy</a>
+        <ul>
+    		<li>
+      			<a href="#">Pets</a>
+        		<ul>
+        		<li><a href="#">Cat</a></li>
+        		<li><a href="#">Dog</a></li>
+        		<li><a href="#">Fish</a></li>
+        		<li><a href="#">Rodents</a></li>
+      			</ul>
+    		</li>
+  		</ul>
+  		<a href="#">Sign in</a>
+  		</div>
+  		</div>
+  		<div class="mp">
+  		<div class="block2">
+  			<video width="400" autoplay loop muted controls>
+  				<source src="images/000_r.mp4" type="video/mp4">
+  			</video>
+
+  		</div>
+  		<div class="txt">
+  			<p>
+  				welcome to my petstore,fast delivery, quality goods, only with us, in Rayana's　ツ
+  			</p>
+  		</div>
+  	</div>
+
+	</div>
+	<div class="jss">
+			<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="images/i2.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <img src="images/i4.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <img src="images/ii2.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+	</div>
+	<div class="contacts">
+		<div class="cc">
+		 <a href="#"><i class="fa fa-whatsapp fa-3x" ></i> </a>
+		 <a href="#"><i class="fa fa-instagram fa-3x" ></i> </a>
+		 <a href="#"><i class="fa fa-twitter fa-3x" ></i> </a>
+		 <p>Phone: +77079978313</p>
+		 <p>Email: rayanaspets@gmail.com</p>
+		 <p>Instagram: Rayana'sツ</p>
+	</div>
+</div>
+	<div class="mapa">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2297.818626016726!2d76.92115890242013!3d43.24638817653129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836ecbc8f83039%3A0xdd13b6d31fca8689!2z0YPQu9C40YbQsCDQltCw0LzQsdGL0LvQsCAxMjQsINCQ0LvQvNCw0YLRiyAwNTAwMDA!5e0!3m2!1sru!2skz!4v1633083741983!5m2!1sru!2skz" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	</div>
+</div>
+</body>
+</html>
