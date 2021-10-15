@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+.pic1{
+	width: 6%;
+	margin-left: 200px;
+}
+.w2:hover{
+	color: black;
+	background-color:#AFD3AF;
+
+}
+.h1{
+	margin-left: 300px;
+	margin-top: -80px;
+	font-family: 'Oswald', sans-serif;
+}
+.aa{
+	background-color: #f7f2e4;
+	opacity : 0.8; 
+	border-radius: 13px;
+	font-size: 30px;
+	/*background-color: #AFD3AF;*/
+	width: 1100px;
+	height: 50px;
+	margin-left: 200px;
+	margin-top: 70px;
+	display: flex;
+	justify-content: space-between;
+}
+.a2:hover{
+	background-color: #f7f2e4;
+}
+.aa2{
+	width: 900px;
+	height: 50px;
+	margin-left: 100px;
+	margin-top: 0px;
+	display: flex;
+	justify-content: space-between;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+a:hover{
+	color: #aa8004;
+	border-radius: 13px;
+	position: relative;
+}
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+   
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+
+
+.block2{
+	margin-left: 300px;
+	margin-top: 100px;
+}
+
+body{
+	background-image: url(images/ppp.jpg);
+	background-size: cover;
+	background-size: 100%;
+} 
+.txt{
+	font-family: 'Source Code Pro', monospace;
+	margin-left: 750px;
+	width: 400px;
+	margin-top: -150px;
+	font-weight: 700;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) and (max-height: 200px) {
+}
+.jss{
+	margin-top: 150px;
+}
+.contacts{
+	width: 1100px;
+}
+.cc{
+	margin-left: 800px;
+	margin-top: 200px;
+}
+.mapa{
+	margin-left: 280px;
+	margin-top: -250px;
+}
+.footers{
+	margin-left: 750px;
+	margin-top: 50px;
+}
+
+*{font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #AFD3AF;
+  outline: none;
+}
+.signa{
+  border: none;
+  color: black;
+  border-radius: 13px;
+  font-size: 30px;
+  margin-top: -14px;
+}
+.signa:hover{
+	color: #aa8004;
+  border: none;
+} 
+
+/* Set a style for all buttons */
+button.signa{
+  background-color: transparent;
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  border-radius: 13px;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+	margin-left: 100px;
+  width: 20%;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #AFD3AF;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 10% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 30%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: blackx;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
